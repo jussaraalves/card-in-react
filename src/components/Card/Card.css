@@ -4,12 +4,13 @@
     justify-content: center;
     align-items: center;
     border-radius: 50px;
+    
 }
 
 .card-inner {
     padding: 20px;
-    width: 80%;
-    height: 85%;
+    width: 83%;
+    height: 87%;
     background-color: #0E1218;
-    border-radius: 1.5rem .9375rem 1rem 1.5625rem;
+    border-radius: 50px;
 }

@@ -1,3 +1,4 @@
+import CardMain from '../CardMain/CardMain';
 import CardLogo from '../CardLogo/CardLogo'
 import Card from "../Card/Card";
 import './CardContainer.css';
@@ -11,6 +12,7 @@ const CardContainer = (props) => {
             </div>
             <Card>
                  <CardLogo/>
+                 <CardMain/> 
             </Card>
             
         </div>

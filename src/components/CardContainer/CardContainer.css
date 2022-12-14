@@ -4,6 +4,7 @@
 
     display: flex;
     flex-direction: column;
+    
 }
 
 .title-container {
@@ -24,7 +25,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
-    line-height: 1.875rem;
+    margin-bottom: 22px;
+    line-height: 1.875rem; 
 
     color: #FFFFFF;
 }

@@ -1,0 +1,23 @@
+.main{
+    display: flex;
+    justify-content: end;   
+    padding-top: 2.6113rem;
+    border: 2px solid red;
+}
+
+.profile{
+    position: relative;
+    left: 50px;
+    display: flex;
+    justify-content: flex-end;
+    border: .625rem solid #8257E5;
+    border-radius: 50%;
+    width: 18.75rem;
+    height: 18.75rem;  
+    
+}
+
+.profile > img{
+    border-radius: 50%;
+    z-index: 1; 
+}
