@@ -3,7 +3,7 @@ import CardLogo from '../CardLogo/CardLogo'
 import Card from "../Card/Card";
 import './CardContainer.css';
 
-const CardContainer = (props) => {
+const CardContainer = ({chidren}) => {
     return (
         <div className="CardContainer">
             <div className="title-container">
@@ -11,8 +11,8 @@ const CardContainer = (props) => {
                 
             </div>
             <Card>
-                 <CardLogo/>
-                 <CardMain/> 
+                 <CardLogo/> 
+                 <CardMain/>    
             </Card>
             
         </div>

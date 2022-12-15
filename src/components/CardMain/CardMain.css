@@ -1,23 +1,47 @@
 .main{
-    display: flex;
-    justify-content: end;   
+    
     padding-top: 2.6113rem;
-    border: 2px solid red;
+    
 }
 
 .profile{
-    position: relative;
-    left: 50px;
-    display: flex;
-    justify-content: flex-end;
+    position: absolute;  
     border: .625rem solid #8257E5;
     border-radius: 50%;
-    width: 18.75rem;
-    height: 18.75rem;  
+    width: 23.25rem;
+    height: 23.125rem;  
+    margin-left: 3.5rem;
     
 }
 
 .profile > img{
     border-radius: 50%;
-    z-index: 1; 
+    
 }
+
+.info{ 
+    position: relative; 
+    top: 40%; 
+    width: 12.6875rem;
+    height: 12.125rem;
+    font-family: Prompt;
+    font-style: Regular;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(62, 56, 56, 0.42));
+    border-radius: 25%;
+    padding: 1.25rem;
+
+}
+
+.images{
+    padding-top: 10px;
+    width: 1.2994rem;
+    height: 1.2994rem;
+}
+
+.images > img{
+    padding: 5px;
+}
+
+
