@@ -1,16 +1,14 @@
 .main{
-    
-    padding-top: 2.6113rem;
-    
+    padding-top: .6113rem;   
 }
 
 .profile{
     position: absolute;  
     border: .625rem solid #8257E5;
     border-radius: 50%;
-    width: 23.25rem;
-    height: 23.125rem;  
-    margin-left: 3.5rem;
+    width: 20.10rem;
+    height: 20.125rem;  
+    margin-left: 2.5rem; 
     
 }
 
@@ -22,26 +20,29 @@
 .info{ 
     position: relative; 
     top: 40%; 
-    width: 12.6875rem;
-    height: 12.125rem;
+    width: 10.6875rem;
+    height: 10.125rem;
     font-family: Prompt;
     font-style: Regular;
     font-size: 16px;
     color: #FFFFFF;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.25), rgba(62, 56, 56, 0.42));
+    background-image: linear-gradient(#000000 3.5%, rgba(70, 69, 69, 0.72) 53.65%, rgba(62, 56, 56, 0.42) 100%);
     border-radius: 25%;
     padding: 1.25rem;
-
+    
 }
 
 .images{
     padding-top: 10px;
-    width: 1.2994rem;
     height: 1.2994rem;
 }
 
-.images > img{
+
+.following, .followers, .repository, .company, .location{
+    display: flex; 
+    gap: .4125rem;
     padding: 5px;
+
 }
 
 

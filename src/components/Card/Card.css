@@ -3,14 +3,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;  
-    
+    border-radius: 50px;    
 }
 
 .card-inner {
     padding: 20px;
-    width: 83%;
-    height: 87%;
+    width: 85%;
+    height: 89%;
     background-color: #0E1218;
     border-radius: 50px;
 }

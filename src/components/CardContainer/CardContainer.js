@@ -1,3 +1,4 @@
+import CardFooter from '../CardFooter/CardFooter';
 import CardMain from '../CardMain/CardMain';
 import CardLogo from '../CardLogo/CardLogo'
 import Card from "../Card/Card";
@@ -12,7 +13,10 @@ const CardContainer = ({chidren}) => {
             </div>
             <Card>
                  <CardLogo/> 
-                 <CardMain/>    
+                 <CardMain>
+                    <CardFooter/>  
+                 </CardMain>
+                 
             </Card>
             
         </div>

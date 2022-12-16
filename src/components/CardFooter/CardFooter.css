@@ -1,0 +1,20 @@
+.logo-footer {
+    display: flex;
+    align-items: flex-end;
+    
+}
+
+.logo-footer > img{
+    width: 2.125rem;
+    margin-left: 200px;
+}
+
+.text-footer{
+    font-size: 20px;
+    position: absolute;
+    top: 730px;
+    margin-left: 15.625rem;
+    right: -20; 
+    color: aliceblue;
+    
+}
