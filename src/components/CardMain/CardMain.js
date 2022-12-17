@@ -38,9 +38,9 @@ const CardMain = ({children}) => {
                         
                     </div>
                 
-                </div>
                 <div>
                     {children}
+                </div>
                 </div>
             </div>
             

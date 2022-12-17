@@ -12,11 +12,10 @@ const CardContainer = ({chidren}) => {
                 
             </div>
             <Card>
-                 <CardLogo/> 
-                 <CardMain>
+                <CardLogo/> 
+                <CardMain>
                     <CardFooter/>  
-                 </CardMain>
-                 
+                </CardMain>  
             </Card>
             
         </div>

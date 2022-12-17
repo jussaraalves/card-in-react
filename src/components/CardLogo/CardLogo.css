@@ -1,5 +1,9 @@
 .header{
-    padding-top: .3613rem;
+    font-family: Prompt;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 36px;
+    padding-top: .913rem;
     width: 14.4006rem;
     height: 2.75rem;    
 }
@@ -15,15 +19,14 @@
 }
 
 .logo > img{
-    width: 2.8419rem;
-    height: 3.29rem;
-    
+    width: 29.47px;
+    height: 36.64px; 
 }
 
 .logo{
-    padding: .6075rem .79rem .4863rem .79rem;
-    width: 3.4638rem;
-    height: 3.2025rem;
+    padding: .6075rem .79rem .4863rem .79rem; 
+    width: 1.8419rem;
+    height: 2.29rem; 
     border: 1px solid #F1F1F1;
     border-radius: 50%;
 }

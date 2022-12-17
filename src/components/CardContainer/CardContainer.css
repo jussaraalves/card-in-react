@@ -3,7 +3,6 @@
     height: 43.3125rem;  
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .title-container {
