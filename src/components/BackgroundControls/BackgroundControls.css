@@ -1,0 +1,20 @@
+.backgroundControls {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+    height: 20rem;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.backgroundControls > button {
+    margin: 1rem 0;
+    height: fit-content;
+    color: #FFF;
+    background-color: #000;
+    border-color: #1A1A1A;
+    border-width: 2px;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    font-size: .8125rem;
+}

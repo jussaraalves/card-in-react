@@ -1,0 +1,104 @@
+.infoCard {
+    color: #FFF;
+}
+
+.infoCard > span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.infoCard > .cardOuter {
+    width: 20vw;
+    height: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 1rem .6rem;
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.infoCard > .cardOuter > .cardInner {
+    position: relative;
+    background-color: #0E1218;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.infoCard > .cardOuter > .cardInner .logo {
+    display: flex;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+
+.infoCard > .cardOuter > .cardInner .logo > img {
+    width: 25px;
+    height: 25px;
+    padding: .8rem;
+    margin-right: .5rem;
+    border-color: #F1F1F1;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 200px;
+}
+
+.infoCard > .cardOuter > .cardInner .cardBody {
+    position: absolute;
+    z-index: 2;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    background-image: linear-gradient(#000, rgba(70, 69, 69, 0.72), rgba(62, 56, 56, 0.42));
+    border-radius: 50px;
+    bottom: 15%;
+    left: 5%;
+    font-size: 9px;
+    padding: 1rem .5rem;
+}
+
+.infoCard > .cardOuter > .cardInner .cardBody span {
+    display: flex;
+    line-height: 50%;
+}
+
+.infoCard > .cardOuter > .cardInner .cardBody span img {
+    margin-right: .5rem;
+    width: 15px;
+}
+
+.infoCard > .cardOuter > .cardInner .profilePic {
+    position: absolute;
+    z-index: 1;
+    bottom: 20%;
+    right: -10%;
+}
+
+.infoCard > .cardOuter > .cardInner .profilePic img {
+    width: 18vw;
+    border-radius: 200px;
+    border-style: solid;
+    border-color: #8257E5;
+    border-width: 10px;
+}
+
+.infoCard > .cardOuter > .cardInner .cardFooter {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 5%;
+    right: 5%;
+}
+
+.infoCard > .cardOuter > .cardInner .cardFooter img {
+    width: 25px;
+    height: 25px;
+    margin-right: .5rem;
+}
