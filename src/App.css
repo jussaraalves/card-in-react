@@ -1,7 +1,10 @@
-.App {
-    background-color: #0E1218;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Prompt&display=swap');
+.app {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-   
+    width: 100vw;
+    height: 100vh;   
+    background-color: #0E1218;
+    font-family: 'Prompt', sans-serif;
 }
