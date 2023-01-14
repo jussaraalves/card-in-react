@@ -7,6 +7,9 @@ import repository from "../assets/repository.svg"
 import company from "../assets/company.svg"
 import location from "../assets/location.svg"
 import logo from "../assets/logo.svg"
+import React, { useEffect, useState } from "react";
+import api from"../services/api";
+
 
 const CardLogo = () =>{
     return(
@@ -26,27 +29,35 @@ const CardHeader = () => {
 }
 
 const CardBody = () => {
+    const [user, setUser] = useState();
+
+    useEffect(() => {
+        api.get("/users/jussaraalves").then((response) => setUser(response.data))
+        .catch((err) => {
+            console.log("ops! ocorreu um erro" +err);
+        })
+    })
     return (
         <div className='cardBody'>
             <span>
                 <img alt="" src={followers}/>
-                <p>22 Seguidores</p>
+                <p>{user?.followers} Seguidores</p>
             </span>
             <span>
                 <img alt="" src={following}/>  
-                <p>54 Seguindo</p>
+                <p>{user?.following} Seguindo</p>
             </span>
             <span>
                 <img alt="" src={repository}/>
-                <p>8 Repositórios</p>
+                <p>{user?.public_repos} Repositórios</p>
             </span>
             <span>
                 <img alt="" src={company}/>
-                <p>@Rosemodas</p>
-            </span>
+                <p>{user?.company}</p>
+            </span> 
             <span>
                 <img alt="" src={location}/>
-                <p>Belo Jardim-PE</p>
+                <p>{user?.location}</p>
             </span>
         </div>
     )

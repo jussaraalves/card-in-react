@@ -10,7 +10,7 @@
 }
 
 .infoCard > .cardOuter {
-    width: 20vw;
+    width: 350px;
     height: 65vh;
     display: flex;
     justify-content: center;
@@ -61,11 +61,13 @@
     left: 5%;
     font-size: 9px;
     padding: 1rem .5rem;
+    
 }
 
 .infoCard > .cardOuter > .cardInner .cardBody span {
     display: flex;
     line-height: 50%;
+    padding-left: .5rem;
 }
 
 .infoCard > .cardOuter > .cardInner .cardBody span img {
@@ -77,11 +79,11 @@
     position: absolute;
     z-index: 1;
     bottom: 20%;
-    right: -10%;
+    right: 3%;
 }
 
 .infoCard > .cardOuter > .cardInner .profilePic img {
-    width: 18vw;
+    width: 300px;
     border-radius: 200px;
     border-style: solid;
     border-color: #8257E5;
