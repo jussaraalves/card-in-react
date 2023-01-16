@@ -68,7 +68,7 @@ const CardFooter = () => {
         <div className='cardFooter'>
             <img alt="" src={logo}/> 
             <p className="text-footer">ROCKETCARD</p>
-        </div>
+        </div> 
     )
 }
 
