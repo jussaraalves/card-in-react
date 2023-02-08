@@ -1,19 +1,19 @@
 import './InfoCard.css'
 
-import fotoPerfil from '../assets/foto-perfil.jpg'
-import following from "../assets/following.svg"
-import followers from "../assets/followers.svg"
-import repository from "../assets/repository.svg"
-import company from "../assets/company.svg"
-import location from "../assets/location.svg"
-import logo from "../assets/logo.svg"
+import fotoPerfil from '../assets/images/foto_perfil.JPG'
+import following from "../assets/images/following.svg"
+import followers from "../assets/images/followers.svg"
+import repository from "../assets/images/repository.svg"
+import company from "../assets/images/company.svg"
+import location from "../assets/images/location.svg"
+import logo from "../assets/images/logo.svg"
 import React, { useEffect, useState } from "react";
 import api from"../services/api";
 
 
 const CardLogo = () =>{
     return(
-        <div className='logo'>
+        <div className='logo' >
             <img alt="" src={logo}/>    
             <p>jussaraalves</p> 
         </div>
@@ -22,7 +22,7 @@ const CardLogo = () =>{
 
 const CardHeader = () => {
     return (
-        <div className='profilePic'>
+        <div className='profilePic' >
             <img alt="" src={fotoPerfil}/>
         </div>
     )
