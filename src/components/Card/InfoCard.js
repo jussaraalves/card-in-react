@@ -28,6 +28,7 @@ const CardHeader = () => {
     )
 }
 
+
 const CardBody = () => {
     const [user, setUser] = useState();
 
@@ -37,6 +38,7 @@ const CardBody = () => {
             console.log("ops! ocorreu um erro" +err);
         })
     })
+    
     return (
         <div className='cardBody'>
             <span>
@@ -83,13 +85,13 @@ const CardMain = () => {
 }
 
 
-const InfoCard = () => {
+const InfoCard = (props) => {
     return (
         <div className='infoCard'>
             <span>
                 Compartilhe seu #rocketcard
             </span>
-            <div className="cardOuter">
+            <div className="cardOuter" style={{ backgroundColor: props.bgColor}}>
                 <div className="cardInner">
                     <CardLogo/>
                     <CardMain/>

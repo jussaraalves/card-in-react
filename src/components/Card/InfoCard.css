@@ -72,6 +72,7 @@
 .infoCard > .cardOuter > .cardInner .cardBody span img {
     margin-right: .5rem;
     width: 15px;
+    
 }
 
 .infoCard > .cardOuter > .cardInner .profilePic {
@@ -87,8 +88,9 @@
     border-style: solid;
     border-color: #8257E5;
     border-width: 10px;
-}
 
+}
+ 
 .infoCard > .cardOuter > .cardInner .cardFooter {
     position: absolute;
     display: flex;
@@ -102,4 +104,5 @@
     width: 25px;
     height: 25px;
     margin-right: .5rem;
+    
 }
